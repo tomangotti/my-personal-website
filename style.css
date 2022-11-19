@@ -1,3 +1,19 @@
+*{
+    border: 1px red solid;
+}
+
 body {
-    background: blue;
+    background-color: aliceblue;
+}
+
+nav {
+    display: inline-flex;
+    background-color: aqua;
+    width:100%;
+}
+
+.nav_point{
+    width: auto;
+    padding: 0px 80px;
+    background-color: aliceblue;
 }
