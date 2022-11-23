@@ -1,9 +1,12 @@
 *{
     border: 1px red solid;
+    
 }
 
 body {
-    background-color: aliceblue;
+    margin: 10px 100px;
+    background-image: url("https://stsci-opo.org/STScI-01G77PKYA4T05YKJ3EDQ36NZCX.png");
+    background-size: cover;
 }
 
 nav {
@@ -20,5 +23,23 @@ nav {
 
 footer {
     background-color: aqua;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
     
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: aquamarine;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+}
+
+.item4 {
+    grid-column: 1 / span 2;
 }
