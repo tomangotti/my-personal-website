@@ -5,7 +5,7 @@
 
 body {
     margin: 10px 100px;
-    background-color: rgb(167, 207, 243);
+    background-color: rgb(255, 255, 255);
 }
 nav {
     display: inline-flex;
@@ -24,15 +24,13 @@ footer {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(0, 0, 255, 0.5);
     
     padding: 10px;
 }
 
-.grid-item {
-    background-color: aquamarine;
-}
+
 
 .item1 {
     grid-column: 1 / span 2;
@@ -40,4 +38,30 @@ footer {
 
 .item4 {
     grid-column: 1 / span 2;
+}
+
+button {
+    color: black;
+    background-color: white;
+    padding: 16px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.616);
+    color: white;
+}
+
+button:active {
+    background-color: blue;
+    transition-duration: 0.2s;
+    margin:6px 4px;
+    padding: 14px 38px;
 }
