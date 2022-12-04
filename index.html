@@ -8,16 +8,16 @@
         <nav>
             <img alt="image of a cool logo">
             <h3>Thomas Angotti's Personal Website</h3>
-            <h4 class="nav_point"><a href="mystory.html">My Story</a></h4>
-            <h4 class="nav_point"><a href="my_edu.html">My Education</a></h4>
-            <h4 class="nav_point"><a href="my_work_exp.html">My Work Experience</a></h4>
-            
         </nav>
 
-        <!-- button here-->
-        <button type="button" id="about.me">About Me</button>
-        
-        <div class="grid-container container1">
+        <!-- buttons here-->
+        <button type="button" onclick="myAboutMe()" id="about.me.button">About Me</button>
+        <button type="button" onclick="myCareer()" id="career.change.button">Career Change</button>
+        <button type="button" onclick="myWorkExp()" id="work.exp.button">Work Experience</button>
+        <button type="button" onclick="myEdu()" id="edu.button">Education</button>
+        <button type="button" onclick="myProjects()" id="myProject.button">My Projects</button>
+
+        <div class="grid-container container1" id="about.me">
             <h1 class="grid-item item1">Hello World!</h1>
             <p class="grid-item item2">
                 My name is Thomas Angotti and Welcome to my personal Website. 
@@ -27,10 +27,9 @@
             <img alt="image of me" class="grid-item item3" />
         </div>
 
-        <!--button here-->
-        <button type="button" id="career.change">Career Change</button>
+        
 
-        <div class="grid-container container2">
+        <div class="grid-container container2" id="career.change">
             <h1>From Civil to Software</h1>
             <p>
                 Yes, I decided at the age of 30 would be the best time to make a career change. 
@@ -39,9 +38,8 @@
             </p>
         </div>
 
-        <!--button here-->
-        <button type="button" onclick="myfunction()" id="work.exp">Work Experience</button>
-        <div class="grid-container container3">
+        
+        <div class="grid-container container3" id="work.exp">
             <h1>Jobs, Jobs, Jobs</h1>
             <h3><strong>Quality Control Inspector</strong></h3>
                 <ul>
@@ -120,10 +118,9 @@
                 </ul>
         </div>
 
-        <!--button here-->
-        <button type="button" id="edu">Education</button>
         
-        <div class="grid-container container4">
+        
+        <div class="grid-container container4" id="edu">
             <h1>BOOKS, SCHOOL, and CLASS OH MY!</h1>
                 <ul>
                     <li>West Virginia University</li>
@@ -141,7 +138,7 @@
                     </li>
                 </ul>
         </div>
-
+        <div class="grid-container container5" id="myProjects"></div>
         <footer class="grid-item item4">
             <h2>Contact Information</h2>
             <table>
@@ -159,7 +156,7 @@
                 </tbody>
             </table>
         </footer>
-        
+        <script src="script.js"></script>
     </body>
 
 </html>
