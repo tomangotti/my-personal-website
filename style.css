@@ -15,7 +15,7 @@ nav {
 
 .nav_point{
     width: auto;
-    padding: 0px 80px;
+    padding: 0px 40px;
     background-color: aliceblue;
 }
 
@@ -43,7 +43,7 @@ footer {
 button {
     color: black;
     background-color: white;
-    padding: 16px 40px;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,6 +52,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border: 2px solid blue;
+    
 }
 
 button:hover {
@@ -63,5 +64,5 @@ button:active {
     background-color: blue;
     transition-duration: 0.2s;
     margin:6px 4px;
-    padding: 14px 38px;
+    padding: 8px 38px;
 }
