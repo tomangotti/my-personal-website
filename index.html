@@ -5,26 +5,30 @@
         <title>Thomas Angotti's Website</title>
     </head>
     <body>
-        <nav>
-            <img alt="image of a cool logo">
+        <header>
+            
             <h3>Thomas Angotti's Personal Website</h3>
-        </nav>
+        </header>
 
         <!-- buttons here-->
-        <button type="button" onclick="myAboutMe()" id="about.me.button">About Me</button>
-        <button type="button" onclick="myCareer()" id="career.change.button">Career Change</button>
-        <button type="button" onclick="myWorkExp()" id="work.exp.button">Work Experience</button>
-        <button type="button" onclick="myEdu()" id="edu.button">Education</button>
-        <button type="button" onclick="myProjects()" id="myProject.button">My Projects</button>
+        <nav>
+            <button type="button" onclick="myAboutMe()" id="about.me.button">About Me</button>
+            <button type="button" onclick="myCareer()" id="career.change.button">Career Change</button>
+            <button type="button" onclick="myWorkExp()" id="work.exp.button">Work Experience</button>
+            <button type="button" onclick="myEdu()" id="edu.button">Education</button>
+            <button type="button" onclick="myProjects()" id="myProject.button">My Projects</button>
+        </nav> 
 
         <div class="grid-container container1" id="about.me">
-            <h1 class="grid-item item1">Hello World!</h1>
-            <p class="grid-item item2">
+            <h1 class="grid-item1 1item1">Hello World!</h1>
+            <p class="grid-item1 1item2">
                 My name is Thomas Angotti and Welcome to my personal Website. 
                 I am originally from West Virginia but moved to Denver CO just 
-                over 6 years ago. I moved here for work and stayed for the mountians. 
+                over 6 years ago. I moved here for work and stayed for the mountians.  
             </p>
-            <img alt="image of me" class="grid-item item3" />
+            <img alt="image of WV" src="https://images.pexels.com/photos/3621800/pexels-photo-3621800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <img alt="an arrow" src="https://images.pexels.com/photos/10313037/pexels-photo-10313037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" /> 
+            <img alt="image of CO" src="https://images.pexels.com/photos/3751010/pexels-photo-3751010.jpeg?auto=compress&cs=tinysrgb&w=1600" />
         </div>
 
         
@@ -41,8 +45,8 @@
         
         <div class="grid-container container3" id="work.exp">
             <h1>Jobs, Jobs, Jobs</h1>
-            <h3><strong>Quality Control Inspector</strong></h3>
-                <ul>
+            <h3 class="grid-item3 item1"><strong>Quality Control Inspector</strong></h3>
+                <ul class="grid-item3 item2">
                     <li>Rocky Mountain Prestress</li>
                     <li>Aug 2016 - Jan 2017</li>
                     <li>Responsibilities: 
@@ -57,8 +61,8 @@
                         </ul>
                     </li>
                 </ul>
-            <h3><strong>Quality Control Lead</strong></h3>
-                <ul>
+            <h3 class="grid-item3 item3"><strong>Quality Control Lead</strong></h3>
+                <ul class="grid-item3 item4">
                     <li>Rocky Mountain Prestress</li>
                     <li>Jan 2017 - Aug 2017</li>
                     <li>Responsibilities:
@@ -71,8 +75,8 @@
                         </ul>
                     </li>
                 </ul>
-            <h3><strong>Field Engineer</strong></h3>
-                <ul>
+            <h3 class="grid-item3 item5"><strong>Field Engineer</strong></h3>
+                <ul class="grid-item3 item6">
                     <li>Rocky Mountain Prestress</li>
                     <li>Aug 2017 - Feb 2018</li>
                     <li>Responsibilities:
@@ -85,8 +89,8 @@
                         </ul>
                     </li>
                 </ul>
-            <h3><strong>Engineer In Training</strong></h3>
-                <ul>
+            <h3 class="grid-item3 item7"><strong>Engineer In Training</strong></h3>
+                <ul class="grid-item3 item8">
                     <li>Rocky Mountain Prestress</li>
                     <li>Feb 2018 - Jan 2019</li>
                     <li>Responsibilities:
@@ -100,8 +104,8 @@
                         </ul>
                     </li>
                 </ul>
-            <h3><strong>Design Engineer</strong></h3>
-                <ul>
+            <h3 class="grid-item3 item9"><strong>Design Engineer</strong></h3>
+                <ul class="grid-item3 item10">
                     <li>Wells Concrete     - note: Wells Concrete purchased Rocky Mountain Prestress</li>
                     <li>Jan 2019 - Nov 2022</li>
                     <li>Responsibilities:
@@ -121,11 +125,16 @@
         
         
         <div class="grid-container container4" id="edu">
-            <h1>BOOKS, SCHOOL, and CLASS OH MY!</h1>
+            <h1>SCHOOL, CLASS, and BOOKS OH MY!</h1>
+            <h4><strong>Flatiron Coding School</strong></h4>
                 <ul>
-                    <li>West Virginia University</li>
+                    <li>Dec 2022 - March 2023 (estimated)</li>
+                    <li>Software Engineering course</li>
+                </ul>
+            <h4><strong>West Virginia University</strong></h4>
+                <ul>
                     <li>Aug 2011 - April 2016</li>
-                    <li>Bachelor in Science:
+                    <li>Bachelor in Science in Civil Engineering:
                         <ul>
                             <li>
                                 As a Design Engineer my responsibilites were to lead projects 
@@ -137,6 +146,7 @@
                         </ul>
                     </li>
                 </ul>
+            
         </div>
         <div class="grid-container container5" id="myProjects"></div>
         <footer class="grid-item item4">

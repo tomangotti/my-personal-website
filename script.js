@@ -1,3 +1,5 @@
+/*NAV BUTTON OPTIONS */
+
 const career = document.getElementById('career.change');
 const aboutMe = document.getElementById('about.me');
 const workExp = document.getElementById('work.exp');
@@ -49,3 +51,9 @@ function myProjects(){
     edu.style.display = "none";
     project.style.display = "";
 };
+
+
+/*NAV BUTTON OPTIONS */
+
+
+/*Construction worker walking*/

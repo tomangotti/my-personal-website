@@ -1,36 +1,46 @@
-*{
-    border: 1px red solid;
-    
-}
 
 body {
     margin: 10px 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: #3772FF;
 }
-nav {
-    display: inline-flex;
-    background-color: aqua;
+header {
+    display: inline-block;
+    background-color: #DF2935;
     width:100%;
+    border:3px #080708 solid;
+    text-align: center;
 }
 
-.nav_point{
-    width: auto;
-    padding: 0px 40px;
-    background-color: aliceblue;
+header h3 {
+    font-size: 45px;
 }
 
 footer {
-    background-color: aqua;
+    display: inline-block;
+    background-color: #DF2935;
+    border:3px #080708 solid;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 .grid-container {
     grid-template-columns: 50% 50%;
-    background-color: rgba(0, 0, 255, 0.5);
-    
+    background-color: #E6E8E6;
     padding: 10px;
+    border: 3px solid #080708;
+    width: 100%;
 }
-
-
+.container1 img {
+    display: inline-flex;
+    width: 25%;
+    height: auto;
+    margin-left:10px;
+    margin-right: auto;
+    
+}
 
 .item1 {
     grid-column: 1 / span 2;
@@ -42,7 +52,7 @@ footer {
 
 button {
     color: black;
-    background-color: white;
+    background-color: #E6E8E6;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
@@ -51,17 +61,17 @@ button {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border: 2px solid blue;
+    border: 3px solid #080708;
     
 }
 
 button:hover {
-    background-color: rgba(0, 0, 255, 0.616);
-    color: white;
+    background-color: #FDCA40;
+    
 }
 
 button:active {
-    background-color: blue;
+    background-color: #FDCA40;
     transition-duration: 0.2s;
     margin:6px 4px;
     padding: 8px 38px;
