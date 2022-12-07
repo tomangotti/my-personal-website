@@ -1,6 +1,5 @@
 
 body {
-    margin: 10px 100px;
     background-color: #3772FF;
 }
 header {
@@ -29,9 +28,10 @@ footer {
 .grid-container {
     grid-template-columns: 50% 50%;
     background-color: #E6E8E6;
-    padding: 10px;
+    padding: 0px;
     border: 3px solid #080708;
     width: 100%;
+    
 }
 .container1 img {
     display: inline-flex;
@@ -56,7 +56,7 @@ button {
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
@@ -76,3 +76,4 @@ button:active {
     margin:6px 4px;
     padding: 8px 38px;
 }
+

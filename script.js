@@ -1,4 +1,4 @@
-/*NAV BUTTON OPTIONS */
+/*NAV BUTTON OPTIONS*/
 
 const career = document.getElementById('career.change');
 const aboutMe = document.getElementById('about.me');
@@ -53,7 +53,34 @@ function myProjects(){
 };
 
 
-/*NAV BUTTON OPTIONS */
+/*NAV BUTTON OPTIONS*/
+
+
+/*Construction worker walking*/
+
+let nIntervID;
+
+function changeImage() {
+    if(!nIntervID) {
+        nIntervID = setInterval(flashImage, 1000);
+    }
+}
+
+function flashImage() {
+    const oColor = document.getElementById("test1");
+    
+    if(oColor.style.color === "red"){
+        oColor.style.color = "blue";
+    } else if(oColor.style.color === "blue"){
+        oColor.style.color = "green";
+    } else {
+        oColor.style.color = "red";
+    }
+}
+
+document.getElementById("career.change.button").addEventListener("click", changeImage);
+
+
 
 
 /*Construction worker walking*/
