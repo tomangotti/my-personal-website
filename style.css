@@ -77,3 +77,6 @@ button:active {
     padding: 8px 38px;
 }
 
+.grid-container .container3 {
+    transition-duration: 5.5s;
+}
