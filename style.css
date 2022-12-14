@@ -24,7 +24,10 @@ footer {
     text-align: center;
     
 }
-
+footer table {
+    margin-left: auto;
+    margin-right: auto;
+}
 .grid-container {
     grid-template-columns: 50% 50%;
     background-color: #E6E8E6;
