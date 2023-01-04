@@ -83,3 +83,21 @@ button:active {
 .grid-container .container3 {
     transition-duration: 5.5s;
 }
+
+.jobs {
+    background-color: #3772FF;
+    border: 5px solid #DF2935;
+    margin: 10px 10px 10px 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school {
+    background-color: #3772FF;
+    border: 5px solid #DF2935;
+    margin: 10px 10px 10px 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
